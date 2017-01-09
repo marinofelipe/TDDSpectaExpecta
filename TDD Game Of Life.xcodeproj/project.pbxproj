@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE10C0D31E134F4D00068DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D21E134F4D00068DFD /* main.m */; };
+		AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D51E134F4D00068DFD /* AppDelegate.m */; };
+		AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D81E134F4D00068DFD /* ViewController.m */; };
+		AE10C0DC1E134F4D00068DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DA1E134F4D00068DFD /* Main.storyboard */; };
+		AE10C0DE1E134F4D00068DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DD1E134F4D00068DFD /* Assets.xcassets */; };
+		AE10C0E11E134F4D00068DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */; };
+		AE10C0EC1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */; };
+		AE10C0F71E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE10C0E81E134F4D00068DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE10C0C61E134F4C00068DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE10C0CD1E134F4C00068DFD;
+			remoteInfo = "TDD Game Of Life";
+		};
+		AE10C0F31E134F4D00068DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE10C0C61E134F4C00068DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE10C0CD1E134F4C00068DFD;
+			remoteInfo = "TDD Game Of Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10C0D21E134F4D00068DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE10C0D41E134F4D00068DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE10C0D51E134F4D00068DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE10C0D71E134F4D00068DFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE10C0D81E134F4D00068DFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE10C0DB1E134F4D00068DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE10C0DD1E134F4D00068DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE10C0E01E134F4D00068DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE10C0E21E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeTests.m; sourceTree = "<group>"; };
+		AE10C0ED1E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeUITests.m; sourceTree = "<group>"; };
+		AE10C0F81E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE10C0CB1E134F4C00068DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0E41E134F4D00068DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0EF1E134F4D00068DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE10C0C51E134F4C00068DFD = {
+			isa = PBXGroup;
+			children = (
+				AE10C0D01E134F4D00068DFD /* TDD Game Of Life */,
+				AE10C0EA1E134F4D00068DFD /* TDD Game Of LifeTests */,
+				AE10C0F51E134F4D00068DFD /* TDD Game Of LifeUITests */,
+				AE10C0CF1E134F4D00068DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE10C0CF1E134F4D00068DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */,
+				AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */,
+				AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE10C0D01E134F4D00068DFD /* TDD Game Of Life */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0D41E134F4D00068DFD /* AppDelegate.h */,
+				AE10C0D51E134F4D00068DFD /* AppDelegate.m */,
+				AE10C0D71E134F4D00068DFD /* ViewController.h */,
+				AE10C0D81E134F4D00068DFD /* ViewController.m */,
+				AE10C0DA1E134F4D00068DFD /* Main.storyboard */,
+				AE10C0DD1E134F4D00068DFD /* Assets.xcassets */,
+				AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */,
+				AE10C0E21E134F4D00068DFD /* Info.plist */,
+				AE10C0D11E134F4D00068DFD /* Supporting Files */,
+			);
+			path = "TDD Game Of Life";
+			sourceTree = "<group>";
+		};
+		AE10C0D11E134F4D00068DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0D21E134F4D00068DFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE10C0EA1E134F4D00068DFD /* TDD Game Of LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */,
+				AE10C0ED1E134F4D00068DFD /* Info.plist */,
+			);
+			path = "TDD Game Of LifeTests";
+			sourceTree = "<group>";
+		};
+		AE10C0F51E134F4D00068DFD /* TDD Game Of LifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */,
+				AE10C0F81E134F4D00068DFD /* Info.plist */,
+			);
+			path = "TDD Game Of LifeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10C0FB1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of Life" */;
+			buildPhases = (
+				AE10C0CA1E134F4C00068DFD /* Sources */,
+				AE10C0CB1E134F4C00068DFD /* Frameworks */,
+				AE10C0CC1E134F4C00068DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TDD Game Of Life";
+			productName = "TDD Game Of Life";
+			productReference = AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE10C0E61E134F4D00068DFD /* TDD Game Of LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10C0FE1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeTests" */;
+			buildPhases = (
+				AE10C0E31E134F4D00068DFD /* Sources */,
+				AE10C0E41E134F4D00068DFD /* Frameworks */,
+				AE10C0E51E134F4D00068DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE10C0E91E134F4D00068DFD /* PBXTargetDependency */,
+			);
+			name = "TDD Game Of LifeTests";
+			productName = "TDD Game Of LifeTests";
+			productReference = AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE10C0F11E134F4D00068DFD /* TDD Game Of LifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10C1011E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeUITests" */;
+			buildPhases = (
+				AE10C0EE1E134F4D00068DFD /* Sources */,
+				AE10C0EF1E134F4D00068DFD /* Frameworks */,
+				AE10C0F01E134F4D00068DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE10C0F41E134F4D00068DFD /* PBXTargetDependency */,
+			);
+			name = "TDD Game Of LifeUITests";
+			productName = "TDD Game Of LifeUITests";
+			productReference = AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE10C0C61E134F4C00068DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Felipe Lefevre Marino";
+				TargetAttributes = {
+					AE10C0CD1E134F4C00068DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9MK4PBNUW;
+						ProvisioningStyle = Automatic;
+					};
+					AE10C0E61E134F4D00068DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9MK4PBNUW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE10C0CD1E134F4C00068DFD;
+					};
+					AE10C0F11E134F4D00068DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9MK4PBNUW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE10C0CD1E134F4C00068DFD;
+					};
+				};
+			};
+			buildConfigurationList = AE10C0C91E134F4C00068DFD /* Build configuration list for PBXProject "TDD Game Of Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE10C0C51E134F4C00068DFD;
+			productRefGroup = AE10C0CF1E134F4D00068DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */,
+				AE10C0E61E134F4D00068DFD /* TDD Game Of LifeTests */,
+				AE10C0F11E134F4D00068DFD /* TDD Game Of LifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE10C0CC1E134F4C00068DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0E11E134F4D00068DFD /* LaunchScreen.storyboard in Resources */,
+				AE10C0DE1E134F4D00068DFD /* Assets.xcassets in Resources */,
+				AE10C0DC1E134F4D00068DFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0E51E134F4D00068DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0F01E134F4D00068DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE10C0CA1E134F4C00068DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */,
+				AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */,
+				AE10C0D31E134F4D00068DFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0E31E134F4D00068DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0EC1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0EE1E134F4D00068DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0F71E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE10C0E91E134F4D00068DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */;
+			targetProxy = AE10C0E81E134F4D00068DFD /* PBXContainerItemProxy */;
+		};
+		AE10C0F41E134F4D00068DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */;
+			targetProxy = AE10C0F31E134F4D00068DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE10C0DA1E134F4D00068DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE10C0DB1E134F4D00068DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE10C0E01E134F4D00068DFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE10C0F91E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE10C0FA1E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE10C0FC1E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.TDD-Game-Of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE10C0FD1E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.TDD-Game-Of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE10C0FF1E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.TDD-Game-Of-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD Game Of Life.app/TDD Game Of Life";
+			};
+			name = Debug;
+		};
+		AE10C1001E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.TDD-Game-Of-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD Game Of Life.app/TDD Game Of Life";
+			};
+			name = Release;
+		};
+		AE10C1021E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.TDD-Game-Of-LifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TDD Game Of Life";
+			};
+			name = Debug;
+		};
+		AE10C1031E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.felipemarino.TDD-Game-Of-LifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TDD Game Of Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE10C0C91E134F4C00068DFD /* Build configuration list for PBXProject "TDD Game Of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C0F91E134F4D00068DFD /* Debug */,
+				AE10C0FA1E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10C0FB1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C0FC1E134F4D00068DFD /* Debug */,
+				AE10C0FD1E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE10C0FE1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C0FF1E134F4D00068DFD /* Debug */,
+				AE10C1001E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE10C1011E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C1021E134F4D00068DFD /* Debug */,
+				AE10C1031E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE10C0C61E134F4C00068DFD /* Project object */;
+}
