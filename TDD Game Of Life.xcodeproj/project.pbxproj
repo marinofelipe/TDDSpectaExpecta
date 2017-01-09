@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */; };
+		40B7456EBD884F212C633B6F /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */; };
+		6FAF13E23BAD5D32A12C38D7 /* libPods-TDD Game Of Life.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */; };
 		AE10C0D31E134F4D00068DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D21E134F4D00068DFD /* main.m */; };
 		AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D51E134F4D00068DFD /* AppDelegate.m */; };
 		AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D81E134F4D00068DFD /* ViewController.m */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092DE8675DA6F4401BFC7726 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.debug.xcconfig"; sourceTree = "<group>"; };
+		42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE10C0D21E134F4D00068DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE10C0D41E134F4D00068DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeUITests.m; sourceTree = "<group>"; };
 		AE10C0F81E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80F2359711544DF814B5CFA /* Pods-TDD Game Of Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.release.xcconfig"; sourceTree = "<group>"; };
+		DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life-TDD Game Of LifeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3C246223F1F57547A444DE /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAF13E23BAD5D32A12C38D7 /* libPods-TDD Game Of Life.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B7456EBD884F212C633B6F /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2709DDBC4B09618CA458A7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */,
+				DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */,
+				877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		995188EFDF57DE25B8BB98DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */,
+				C80F2359711544DF814B5CFA /* Pods-TDD Game Of Life.release.xcconfig */,
+				975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */,
+				092DE8675DA6F4401BFC7726 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig */,
+				42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */,
+				EE3C246223F1F57547A444DE /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE10C0C51E134F4C00068DFD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				AE10C0EA1E134F4D00068DFD /* TDD Game Of LifeTests */,
 				AE10C0F51E134F4D00068DFD /* TDD Game Of LifeUITests */,
 				AE10C0CF1E134F4D00068DFD /* Products */,
+				995188EFDF57DE25B8BB98DF /* Pods */,
+				2709DDBC4B09618CA458A7C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10C0FB1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of Life" */;
 			buildPhases = (
+				9EB80811FDA032455A8E875C /* [CP] Check Pods Manifest.lock */,
 				AE10C0CA1E134F4C00068DFD /* Sources */,
 				AE10C0CB1E134F4C00068DFD /* Frameworks */,
 				AE10C0CC1E134F4C00068DFD /* Resources */,
+				A89FB8D58A2B0048439B936C /* [CP] Embed Pods Frameworks */,
+				406CA13EB231E38B9A58628F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10C0FE1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeTests" */;
 			buildPhases = (
+				DC72525A1832BFD9CC8052CB /* [CP] Check Pods Manifest.lock */,
 				AE10C0E31E134F4D00068DFD /* Sources */,
 				AE10C0E41E134F4D00068DFD /* Frameworks */,
 				AE10C0E51E134F4D00068DFD /* Resources */,
+				8C93DB6CCB161D6BF2593A8C /* [CP] Embed Pods Frameworks */,
+				2585B42E2AC5212438195505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10C1011E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeUITests" */;
 			buildPhases = (
+				665BC6A9E06D9B38278E491D /* [CP] Check Pods Manifest.lock */,
 				AE10C0EE1E134F4D00068DFD /* Sources */,
 				AE10C0EF1E134F4D00068DFD /* Frameworks */,
 				AE10C0F01E134F4D00068DFD /* Resources */,
+				6AE662085EA16BC6F5A6430C /* [CP] Embed Pods Frameworks */,
+				0B6191333AE1D4624B5F5FAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6191333AE1D4624B5F5FAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2585B42E2AC5212438195505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406CA13EB231E38B9A58628F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665BC6A9E06D9B38278E491D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE662085EA16BC6F5A6430C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C93DB6CCB161D6BF2593A8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB80811FDA032455A8E875C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A89FB8D58A2B0048439B936C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC72525A1832BFD9CC8052CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE10C0CA1E134F4C00068DFD /* Sources */ = {
@@ -425,6 +612,7 @@
 		};
 		AE10C0FC1E134F4D00068DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
@@ -437,6 +625,7 @@
 		};
 		AE10C0FD1E134F4D00068DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80F2359711544DF814B5CFA /* Pods-TDD Game Of Life.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
@@ -449,6 +638,7 @@
 		};
 		AE10C0FF1E134F4D00068DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
@@ -462,6 +652,7 @@
 		};
 		AE10C1001E134F4D00068DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092DE8675DA6F4401BFC7726 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
@@ -475,6 +666,7 @@
 		};
 		AE10C1021E134F4D00068DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
@@ -487,6 +679,7 @@
 		};
 		AE10C1031E134F4D00068DFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3C246223F1F57547A444DE /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
