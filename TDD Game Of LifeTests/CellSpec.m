@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <Specta/Specta.h>
 #define EXP_SHORTHAND //setup shorthand to prevent writing expectations with the prefix EXP_expect
-#import "Expecta.h"
+#import <Expecta/Expecta.h>
 #import "Cell.h"
 
 SpecBegin(Cell)

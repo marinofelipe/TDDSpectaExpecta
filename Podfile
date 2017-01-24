@@ -9,13 +9,12 @@ target 'TDD Game Of Life' do
   # Pods for TDD Game Of Life
 
   target 'TDD Game Of LifeTests' do
-    # Pods for testing
+      pod 'Specta'
+      pod 'Expecta', '~> 1.0'
+      pod 'OCMock'
   end
 
   target 'TDD Game Of LifeUITests' do
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'OCMock' 
   end
 
 end
