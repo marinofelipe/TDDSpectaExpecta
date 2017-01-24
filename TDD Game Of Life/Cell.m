@@ -11,7 +11,11 @@
 @implementation Cell
 
 - (BOOL)isAlive {
-    return YES;
+    return NO;
+}
+
+- (void)load {
+    _alive = YES;
 }
 
 @end

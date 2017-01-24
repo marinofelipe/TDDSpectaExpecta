@@ -20,4 +20,13 @@ describe(@"Cell", ^{
         expect([cell isAlive]).to.equal(NO);
     });
 });
+
+describe(@"Cell", ^{
+    it(@"is alive on load", ^{
+        Cell *cell = [Cell new];
+        [cell load];
+        expect(cell.alive).to.equal(YES);
+    });
+});
+
 SpecEnd

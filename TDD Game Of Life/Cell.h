@@ -10,6 +10,9 @@
 
 @interface Cell : NSObject
 
+@property BOOL alive;
+
 - (BOOL)isAlive;
+- (void)load;
 
 @end
