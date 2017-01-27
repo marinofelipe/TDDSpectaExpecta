@@ -1,0 +1,11 @@
+# .slather.yml
+
+xcodeproj: TDD Game Of Life.xcodeproj
+workspace: TDD Game Of Life.xcworkspace
+source_directory: itau-empresas-ios
+output_directory: html
+scheme: TDD Game Of Life
+coverage_service: html
+ignore:
+    - ../**/*/Xcode*
+    - Pods/*
