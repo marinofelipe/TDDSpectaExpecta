@@ -1,1703 +1,790 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>092DE8675DA6F4401BFC7726</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B6191333AE1D4624B5F5FAA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>105F7FA82D231FE8CE25C9B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>312033D5B44697CC6EC8F7F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2585B42E2AC5212438195505</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2709DDBC4B09618CA458A7C3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>75D202961E25ABA7000FD2A6</string>
-				<string>75D202931E25A66D000FD2A6</string>
-				<string>75D202891E25A5D5000FD2A6</string>
-				<string>75D2028A1E25A5D5000FD2A6</string>
-				<string>75D2028B1E25A5D5000FD2A6</string>
-				<string>75D2028C1E25A5D5000FD2A6</string>
-				<string>75D2028D1E25A5D5000FD2A6</string>
-				<string>312033D5B44697CC6EC8F7F7</string>
-				<string>DF7E03794B986EF3A9D7FBF3</string>
-				<string>877FD37A9C57FA0EC8CDD78D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>312033D5B44697CC6EC8F7F7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TDD Game Of Life.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>387B06BEB9CCA750B2C004DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF7E03794B986EF3A9D7FBF3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EAC6ED1CCCA7E4BE03A2ABE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TDD Game Of Life.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>406CA13EB231E38B9A58628F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>42F02EEFAC206BD105587967</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>665BC6A9E06D9B38278E491D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6AE662085EA16BC6F5A6430C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>75736DC11E37D168004B6652</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75D202891E25A5D5000FD2A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>75736DC21E37D16B004B6652</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75D2028A1E25A5D5000FD2A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>75736DC31E37D16E004B6652</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75D2028D1E25A5D5000FD2A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>75B2DB261E259C4400F7C899</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CellSpec.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75B2DB271E259C4400F7C899</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75B2DB261E259C4400F7C899</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>75B2DB281E259C4F00F7C899</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Cell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75B2DB291E259C4F00F7C899</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Cell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75B2DB2A1E259C4F00F7C899</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75B2DB291E259C4F00F7C899</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>75D202891E25A5D5000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libExpecta.a</string>
-			<key>path</key>
-			<string>../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/Expecta/libExpecta.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D2028A1E25A5D5000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libOCMock.a</string>
-			<key>path</key>
-			<string>../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/OCMock/libOCMock.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D2028B1E25A5D5000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libPods-TDD Game Of Life-TDD Game Of LifeUITests.a</string>
-			<key>path</key>
-			<string>../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/libPods-TDD Game Of Life-TDD Game Of LifeUITests.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D2028C1E25A5D5000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libPods-TDD Game Of Life.a</string>
-			<key>path</key>
-			<string>../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/libPods-TDD Game Of Life.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D2028D1E25A5D5000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libSpecta.a</string>
-			<key>path</key>
-			<string>../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/Specta/libSpecta.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D202931E25A66D000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>75D202961E25ABA7000FD2A6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>75D202A01E25B027000FD2A6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75D2028B1E25A5D5000FD2A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>82586950164503B256BECD9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>877FD37A9C57FA0EC8CDD78D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>877FD37A9C57FA0EC8CDD78D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TDD Game Of Life-TDD Game Of LifeUITests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8C93DB6CCB161D6BF2593A8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>975708F36DCC03C65C168812</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>995188EFDF57DE25B8BB98DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3EAC6ED1CCCA7E4BE03A2ABE</string>
-				<string>C80F2359711544DF814B5CFA</string>
-				<string>975708F36DCC03C65C168812</string>
-				<string>092DE8675DA6F4401BFC7726</string>
-				<string>42F02EEFAC206BD105587967</string>
-				<string>EE3C246223F1F57547A444DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9EB80811FDA032455A8E875C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A89FB8D58A2B0048439B936C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0C51E134F4C00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE10C0D01E134F4D00068DFD</string>
-				<string>AE10C0EA1E134F4D00068DFD</string>
-				<string>AE10C0F51E134F4D00068DFD</string>
-				<string>AE10C0CF1E134F4D00068DFD</string>
-				<string>995188EFDF57DE25B8BB98DF</string>
-				<string>2709DDBC4B09618CA458A7C3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0C61E134F4C00068DFD</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0820</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Felipe Lefevre Marino</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>AE10C0CD1E134F4C00068DFD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>X9MK4PBNUW</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>AE10C0E61E134F4D00068DFD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>X9MK4PBNUW</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>AE10C0CD1E134F4C00068DFD</string>
-					</dict>
-					<key>AE10C0F11E134F4D00068DFD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>X9MK4PBNUW</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>AE10C0CD1E134F4C00068DFD</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>AE10C0C91E134F4C00068DFD</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>AE10C0C51E134F4C00068DFD</string>
-			<key>productRefGroup</key>
-			<string>AE10C0CF1E134F4D00068DFD</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>AE10C0CD1E134F4C00068DFD</string>
-				<string>AE10C0E61E134F4D00068DFD</string>
-				<string>AE10C0F11E134F4D00068DFD</string>
-			</array>
-		</dict>
-		<key>AE10C0C91E134F4C00068DFD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE10C0F91E134F4D00068DFD</string>
-				<string>AE10C0FA1E134F4D00068DFD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AE10C0CA1E134F4C00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE10C0D91E134F4D00068DFD</string>
-				<string>75B2DB2A1E259C4F00F7C899</string>
-				<string>AE10C0D61E134F4D00068DFD</string>
-				<string>AE10C0D31E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0CB1E134F4C00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>105F7FA82D231FE8CE25C9B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0CC1E134F4C00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE10C0E11E134F4D00068DFD</string>
-				<string>AE10C0DE1E134F4D00068DFD</string>
-				<string>AE10C0DC1E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0CD1E134F4C00068DFD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AE10C0FB1E134F4D00068DFD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9EB80811FDA032455A8E875C</string>
-				<string>AE10C0CA1E134F4C00068DFD</string>
-				<string>AE10C0CB1E134F4C00068DFD</string>
-				<string>AE10C0CC1E134F4C00068DFD</string>
-				<string>A89FB8D58A2B0048439B936C</string>
-				<string>406CA13EB231E38B9A58628F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TDD Game Of Life</string>
-			<key>productName</key>
-			<string>TDD Game Of Life</string>
-			<key>productReference</key>
-			<string>AE10C0CE1E134F4D00068DFD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>AE10C0CE1E134F4D00068DFD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TDD Game Of Life.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AE10C0CF1E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE10C0CE1E134F4D00068DFD</string>
-				<string>AE10C0E71E134F4D00068DFD</string>
-				<string>AE10C0F21E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D01E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>75B2DB281E259C4F00F7C899</string>
-				<string>75B2DB291E259C4F00F7C899</string>
-				<string>AE10C0D41E134F4D00068DFD</string>
-				<string>AE10C0D51E134F4D00068DFD</string>
-				<string>AE10C0D71E134F4D00068DFD</string>
-				<string>AE10C0D81E134F4D00068DFD</string>
-				<string>AE10C0DA1E134F4D00068DFD</string>
-				<string>AE10C0DD1E134F4D00068DFD</string>
-				<string>AE10C0DF1E134F4D00068DFD</string>
-				<string>AE10C0E21E134F4D00068DFD</string>
-				<string>AE10C0D11E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TDD Game Of Life</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D11E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE10C0D21E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D21E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D31E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0D21E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0D41E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D51E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D61E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0D51E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0D71E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D81E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0D91E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0D81E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0DA1E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE10C0DB1E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0DB1E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0DC1E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0DA1E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0DD1E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0DE1E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0DD1E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0DF1E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE10C0E01E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0E01E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0E11E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0DF1E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0E21E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0E31E134F4D00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>75B2DB271E259C4400F7C899</string>
-				<string>AE10C0EC1E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0E41E134F4D00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>75736DC21E37D16B004B6652</string>
-				<string>75736DC31E37D16E004B6652</string>
-				<string>75736DC11E37D168004B6652</string>
-				<string>387B06BEB9CCA750B2C004DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0E51E134F4D00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0E61E134F4D00068DFD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AE10C0FE1E134F4D00068DFD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DC72525A1832BFD9CC8052CB</string>
-				<string>AE10C0E31E134F4D00068DFD</string>
-				<string>AE10C0E41E134F4D00068DFD</string>
-				<string>AE10C0E51E134F4D00068DFD</string>
-				<string>8C93DB6CCB161D6BF2593A8C</string>
-				<string>2585B42E2AC5212438195505</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>AE10C0E91E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TDD Game Of LifeTests</string>
-			<key>productName</key>
-			<string>TDD Game Of LifeTests</string>
-			<key>productReference</key>
-			<string>AE10C0E71E134F4D00068DFD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>AE10C0E71E134F4D00068DFD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TDD Game Of LifeTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AE10C0E81E134F4D00068DFD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>AE10C0C61E134F4C00068DFD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>AE10C0CD1E134F4C00068DFD</string>
-			<key>remoteInfo</key>
-			<string>TDD Game Of Life</string>
-		</dict>
-		<key>AE10C0E91E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>AE10C0CD1E134F4C00068DFD</string>
-			<key>targetProxy</key>
-			<string>AE10C0E81E134F4D00068DFD</string>
-		</dict>
-		<key>AE10C0EA1E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>75B2DB261E259C4400F7C899</string>
-				<string>AE10C0EB1E134F4D00068DFD</string>
-				<string>AE10C0ED1E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TDD Game Of LifeTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0EB1E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TDD_Game_Of_LifeTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0EC1E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0EB1E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0ED1E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0EE1E134F4D00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE10C0F71E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0EF1E134F4D00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>75D202A01E25B027000FD2A6</string>
-				<string>82586950164503B256BECD9B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0F01E134F4D00068DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE10C0F11E134F4D00068DFD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AE10C1011E134F4D00068DFD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>665BC6A9E06D9B38278E491D</string>
-				<string>AE10C0EE1E134F4D00068DFD</string>
-				<string>AE10C0EF1E134F4D00068DFD</string>
-				<string>AE10C0F01E134F4D00068DFD</string>
-				<string>6AE662085EA16BC6F5A6430C</string>
-				<string>0B6191333AE1D4624B5F5FAA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>AE10C0F41E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TDD Game Of LifeUITests</string>
-			<key>productName</key>
-			<string>TDD Game Of LifeUITests</string>
-			<key>productReference</key>
-			<string>AE10C0F21E134F4D00068DFD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>AE10C0F21E134F4D00068DFD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TDD Game Of LifeUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AE10C0F31E134F4D00068DFD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>AE10C0C61E134F4C00068DFD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>AE10C0CD1E134F4C00068DFD</string>
-			<key>remoteInfo</key>
-			<string>TDD Game Of Life</string>
-		</dict>
-		<key>AE10C0F41E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>AE10C0CD1E134F4C00068DFD</string>
-			<key>targetProxy</key>
-			<string>AE10C0F31E134F4D00068DFD</string>
-		</dict>
-		<key>AE10C0F51E134F4D00068DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE10C0F61E134F4D00068DFD</string>
-				<string>AE10C0F81E134F4D00068DFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TDD Game Of LifeUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0F61E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TDD_Game_Of_LifeUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0F71E134F4D00068DFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE10C0F61E134F4D00068DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE10C0F81E134F4D00068DFD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE10C0F91E134F4D00068DFD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>YES</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos9.3</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AE10C0FA1E134F4D00068DFD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>YES</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos9.3</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AE10C0FB1E134F4D00068DFD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE10C0FC1E134F4D00068DFD</string>
-				<string>AE10C0FD1E134F4D00068DFD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AE10C0FC1E134F4D00068DFD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3EAC6ED1CCCA7E4BE03A2ABE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>X9MK4PBNUW</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TDD Game Of Life/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.felipemarino.TDDGameOfLife</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AE10C0FD1E134F4D00068DFD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C80F2359711544DF814B5CFA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>X9MK4PBNUW</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TDD Game Of Life/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.felipemarino.TDDGameOfLife</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AE10C0FE1E134F4D00068DFD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE10C0FF1E134F4D00068DFD</string>
-				<string>AE10C1001E134F4D00068DFD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AE10C0FF1E134F4D00068DFD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>975708F36DCC03C65C168812</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>X9MK4PBNUW</string>
-				<key>ENABLE_BITCODE</key>
-				<string>NO</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TDD Game Of LifeTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>-ObjC</string>
-				</array>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.felipemarino.TDDGameOfLifeTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TDD Game Of Life.app/TDD Game Of Life</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AE10C1001E134F4D00068DFD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>092DE8675DA6F4401BFC7726</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>X9MK4PBNUW</string>
-				<key>ENABLE_BITCODE</key>
-				<string>NO</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TDD Game Of LifeTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.felipemarino.TDDGameOfLifeTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TDD Game Of Life.app/TDD Game Of Life</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AE10C1011E134F4D00068DFD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE10C1021E134F4D00068DFD</string>
-				<string>AE10C1031E134F4D00068DFD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AE10C1021E134F4D00068DFD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>42F02EEFAC206BD105587967</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>X9MK4PBNUW</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TDD Game Of LifeUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.felipemarino.TDDGameOfLifeUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>TDD Game Of Life</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AE10C1031E134F4D00068DFD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EE3C246223F1F57547A444DE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>X9MK4PBNUW</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TDD Game Of LifeUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.felipemarino.TDDGameOfLifeUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>TDD Game Of Life</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C80F2359711544DF814B5CFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TDD Game Of Life.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC72525A1832BFD9CC8052CB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DF7E03794B986EF3A9D7FBF3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TDD Game Of Life-TDD Game Of LifeTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EE3C246223F1F57547A444DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>AE10C0C61E134F4C00068DFD</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105F7FA82D231FE8CE25C9B6 /* libPods-TDD Game Of Life.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */; };
+		387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */; };
+		753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */; };
+		75736DC11E37D168004B6652 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D202891E25A5D5000FD2A6 /* libExpecta.a */; };
+		75736DC21E37D16B004B6652 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028A1E25A5D5000FD2A6 /* libOCMock.a */; };
+		75736DC31E37D16E004B6652 /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028D1E25A5D5000FD2A6 /* libSpecta.a */; };
+		75B2DB271E259C4400F7C899 /* CellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2DB261E259C4400F7C899 /* CellSpec.m */; };
+		75B2DB2A1E259C4F00F7C899 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2DB291E259C4F00F7C899 /* Cell.m */; };
+		75D202A01E25B027000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028B1E25A5D5000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */; };
+		82586950164503B256BECD9B /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */; };
+		AE10C0D31E134F4D00068DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D21E134F4D00068DFD /* main.m */; };
+		AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D51E134F4D00068DFD /* AppDelegate.m */; };
+		AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D81E134F4D00068DFD /* ViewController.m */; };
+		AE10C0DC1E134F4D00068DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DA1E134F4D00068DFD /* Main.storyboard */; };
+		AE10C0DE1E134F4D00068DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DD1E134F4D00068DFD /* Assets.xcassets */; };
+		AE10C0E11E134F4D00068DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */; };
+		AE10C0EC1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */; };
+		AE10C0F71E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE10C0E81E134F4D00068DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE10C0C61E134F4C00068DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE10C0CD1E134F4C00068DFD;
+			remoteInfo = "TDD Game Of Life";
+		};
+		AE10C0F31E134F4D00068DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE10C0C61E134F4C00068DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE10C0CD1E134F4C00068DFD;
+			remoteInfo = "TDD Game Of Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092DE8675DA6F4401BFC7726 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.debug.xcconfig"; sourceTree = "<group>"; };
+		42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
+		75B2DB261E259C4400F7C899 /* CellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSpec.m; sourceTree = "<group>"; };
+		75B2DB281E259C4F00F7C899 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		75B2DB291E259C4F00F7C899 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		75D202891E25A5D5000FD2A6 /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/Expecta/libExpecta.a"; sourceTree = "<group>"; };
+		75D2028A1E25A5D5000FD2A6 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/OCMock/libOCMock.a"; sourceTree = "<group>"; };
+		75D2028B1E25A5D5000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; sourceTree = "<group>"; };
+		75D2028C1E25A5D5000FD2A6 /* libPods-TDD Game Of Life.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TDD Game Of Life.a"; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/libPods-TDD Game Of Life.a"; sourceTree = "<group>"; };
+		75D2028D1E25A5D5000FD2A6 /* libSpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSpecta.a; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/Specta/libSpecta.a"; sourceTree = "<group>"; };
+		75D202931E25A66D000FD2A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75D202961E25ABA7000FD2A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10C0D21E134F4D00068DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE10C0D41E134F4D00068DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE10C0D51E134F4D00068DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE10C0D71E134F4D00068DFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE10C0D81E134F4D00068DFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE10C0DB1E134F4D00068DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE10C0DD1E134F4D00068DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE10C0E01E134F4D00068DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE10C0E21E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeTests.m; sourceTree = "<group>"; };
+		AE10C0ED1E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeUITests.m; sourceTree = "<group>"; };
+		AE10C0F81E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80F2359711544DF814B5CFA /* Pods-TDD Game Of Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.release.xcconfig"; sourceTree = "<group>"; };
+		DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life-TDD Game Of LifeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3C246223F1F57547A444DE /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE10C0CB1E134F4C00068DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105F7FA82D231FE8CE25C9B6 /* libPods-TDD Game Of Life.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0E41E134F4D00068DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75736DC21E37D16B004B6652 /* libOCMock.a in Frameworks */,
+				75736DC31E37D16E004B6652 /* libSpecta.a in Frameworks */,
+				75736DC11E37D168004B6652 /* libExpecta.a in Frameworks */,
+				387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0EF1E134F4D00068DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D202A01E25B027000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */,
+				82586950164503B256BECD9B /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2709DDBC4B09618CA458A7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D202961E25ABA7000FD2A6 /* XCTest.framework */,
+				75D202931E25A66D000FD2A6 /* Foundation.framework */,
+				75D202891E25A5D5000FD2A6 /* libExpecta.a */,
+				75D2028A1E25A5D5000FD2A6 /* libOCMock.a */,
+				75D2028B1E25A5D5000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */,
+				75D2028C1E25A5D5000FD2A6 /* libPods-TDD Game Of Life.a */,
+				75D2028D1E25A5D5000FD2A6 /* libSpecta.a */,
+				312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */,
+				DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */,
+				877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		995188EFDF57DE25B8BB98DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */,
+				C80F2359711544DF814B5CFA /* Pods-TDD Game Of Life.release.xcconfig */,
+				975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */,
+				092DE8675DA6F4401BFC7726 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig */,
+				42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */,
+				EE3C246223F1F57547A444DE /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE10C0C51E134F4C00068DFD = {
+			isa = PBXGroup;
+			children = (
+				AE10C0D01E134F4D00068DFD /* TDD Game Of Life */,
+				AE10C0EA1E134F4D00068DFD /* TDD Game Of LifeTests */,
+				AE10C0F51E134F4D00068DFD /* TDD Game Of LifeUITests */,
+				AE10C0CF1E134F4D00068DFD /* Products */,
+				995188EFDF57DE25B8BB98DF /* Pods */,
+				2709DDBC4B09618CA458A7C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE10C0CF1E134F4D00068DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */,
+				AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */,
+				AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE10C0D01E134F4D00068DFD /* TDD Game Of Life */ = {
+			isa = PBXGroup;
+			children = (
+				75B2DB281E259C4F00F7C899 /* Cell.h */,
+				75B2DB291E259C4F00F7C899 /* Cell.m */,
+				AE10C0D41E134F4D00068DFD /* AppDelegate.h */,
+				AE10C0D51E134F4D00068DFD /* AppDelegate.m */,
+				AE10C0D71E134F4D00068DFD /* ViewController.h */,
+				AE10C0D81E134F4D00068DFD /* ViewController.m */,
+				AE10C0DA1E134F4D00068DFD /* Main.storyboard */,
+				AE10C0DD1E134F4D00068DFD /* Assets.xcassets */,
+				AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */,
+				AE10C0E21E134F4D00068DFD /* Info.plist */,
+				AE10C0D11E134F4D00068DFD /* Supporting Files */,
+			);
+			path = "TDD Game Of Life";
+			sourceTree = "<group>";
+		};
+		AE10C0D11E134F4D00068DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0D21E134F4D00068DFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE10C0EA1E134F4D00068DFD /* TDD Game Of LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				75B2DB261E259C4400F7C899 /* CellSpec.m */,
+				AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */,
+				AE10C0ED1E134F4D00068DFD /* Info.plist */,
+				753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */,
+			);
+			path = "TDD Game Of LifeTests";
+			sourceTree = "<group>";
+		};
+		AE10C0F51E134F4D00068DFD /* TDD Game Of LifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */,
+				AE10C0F81E134F4D00068DFD /* Info.plist */,
+			);
+			path = "TDD Game Of LifeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10C0FB1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of Life" */;
+			buildPhases = (
+				9EB80811FDA032455A8E875C /* [CP] Check Pods Manifest.lock */,
+				AE10C0CA1E134F4C00068DFD /* Sources */,
+				AE10C0CB1E134F4C00068DFD /* Frameworks */,
+				AE10C0CC1E134F4C00068DFD /* Resources */,
+				A89FB8D58A2B0048439B936C /* [CP] Embed Pods Frameworks */,
+				406CA13EB231E38B9A58628F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TDD Game Of Life";
+			productName = "TDD Game Of Life";
+			productReference = AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE10C0E61E134F4D00068DFD /* TDD Game Of LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10C0FE1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeTests" */;
+			buildPhases = (
+				DC72525A1832BFD9CC8052CB /* [CP] Check Pods Manifest.lock */,
+				AE10C0E31E134F4D00068DFD /* Sources */,
+				AE10C0E41E134F4D00068DFD /* Frameworks */,
+				AE10C0E51E134F4D00068DFD /* Resources */,
+				8C93DB6CCB161D6BF2593A8C /* [CP] Embed Pods Frameworks */,
+				2585B42E2AC5212438195505 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE10C0E91E134F4D00068DFD /* PBXTargetDependency */,
+			);
+			name = "TDD Game Of LifeTests";
+			productName = "TDD Game Of LifeTests";
+			productReference = AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE10C0F11E134F4D00068DFD /* TDD Game Of LifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10C1011E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeUITests" */;
+			buildPhases = (
+				665BC6A9E06D9B38278E491D /* [CP] Check Pods Manifest.lock */,
+				AE10C0EE1E134F4D00068DFD /* Sources */,
+				AE10C0EF1E134F4D00068DFD /* Frameworks */,
+				AE10C0F01E134F4D00068DFD /* Resources */,
+				6AE662085EA16BC6F5A6430C /* [CP] Embed Pods Frameworks */,
+				0B6191333AE1D4624B5F5FAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE10C0F41E134F4D00068DFD /* PBXTargetDependency */,
+			);
+			name = "TDD Game Of LifeUITests";
+			productName = "TDD Game Of LifeUITests";
+			productReference = AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE10C0C61E134F4C00068DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Felipe Lefevre Marino";
+				TargetAttributes = {
+					AE10C0CD1E134F4C00068DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9MK4PBNUW;
+						ProvisioningStyle = Automatic;
+					};
+					AE10C0E61E134F4D00068DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9MK4PBNUW;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE10C0CD1E134F4C00068DFD;
+					};
+					AE10C0F11E134F4D00068DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9MK4PBNUW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE10C0CD1E134F4C00068DFD;
+					};
+				};
+			};
+			buildConfigurationList = AE10C0C91E134F4C00068DFD /* Build configuration list for PBXProject "TDD Game Of Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE10C0C51E134F4C00068DFD;
+			productRefGroup = AE10C0CF1E134F4D00068DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */,
+				AE10C0E61E134F4D00068DFD /* TDD Game Of LifeTests */,
+				AE10C0F11E134F4D00068DFD /* TDD Game Of LifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE10C0CC1E134F4C00068DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0E11E134F4D00068DFD /* LaunchScreen.storyboard in Resources */,
+				AE10C0DE1E134F4D00068DFD /* Assets.xcassets in Resources */,
+				AE10C0DC1E134F4D00068DFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0E51E134F4D00068DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0F01E134F4D00068DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6191333AE1D4624B5F5FAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2585B42E2AC5212438195505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406CA13EB231E38B9A58628F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665BC6A9E06D9B38278E491D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE662085EA16BC6F5A6430C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C93DB6CCB161D6BF2593A8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB80811FDA032455A8E875C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A89FB8D58A2B0048439B936C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC72525A1832BFD9CC8052CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE10C0CA1E134F4C00068DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */,
+				75B2DB2A1E259C4F00F7C899 /* Cell.m in Sources */,
+				AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */,
+				AE10C0D31E134F4D00068DFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0E31E134F4D00068DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */,
+				75B2DB271E259C4400F7C899 /* CellSpec.m in Sources */,
+				AE10C0EC1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10C0EE1E134F4D00068DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE10C0F71E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE10C0E91E134F4D00068DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */;
+			targetProxy = AE10C0E81E134F4D00068DFD /* PBXContainerItemProxy */;
+		};
+		AE10C0F41E134F4D00068DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE10C0CD1E134F4C00068DFD /* TDD Game Of Life */;
+			targetProxy = AE10C0F31E134F4D00068DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE10C0DA1E134F4D00068DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE10C0DB1E134F4D00068DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE10C0E01E134F4D00068DFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE10C0F91E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE10C0FA1E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE10C0FC1E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE10C0FD1E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80F2359711544DF814B5CFA /* Pods-TDD Game Of Life.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE10C0FF1E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "TDD Game Of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TDD Game Of LifeTests/TDD Game Of LifeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD Game Of Life.app/TDD Game Of Life";
+			};
+			name = Debug;
+		};
+		AE10C1001E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092DE8675DA6F4401BFC7726 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "TDD Game Of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TDD Game Of LifeTests/TDD Game Of LifeTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD Game Of Life.app/TDD Game Of Life";
+			};
+			name = Release;
+		};
+		AE10C1021E134F4D00068DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TDD Game Of Life";
+			};
+			name = Debug;
+		};
+		AE10C1031E134F4D00068DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3C246223F1F57547A444DE /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
+				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TDD Game Of Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE10C0C91E134F4C00068DFD /* Build configuration list for PBXProject "TDD Game Of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C0F91E134F4D00068DFD /* Debug */,
+				AE10C0FA1E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10C0FB1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C0FC1E134F4D00068DFD /* Debug */,
+				AE10C0FD1E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10C0FE1E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C0FF1E134F4D00068DFD /* Debug */,
+				AE10C1001E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10C1011E134F4D00068DFD /* Build configuration list for PBXNativeTarget "TDD Game Of LifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE10C1021E134F4D00068DFD /* Debug */,
+				AE10C1031E134F4D00068DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE10C0C61E134F4C00068DFD /* Project object */;
+}
