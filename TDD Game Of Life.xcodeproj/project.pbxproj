@@ -13,17 +13,17 @@
 		75736DC11E37D168004B6652 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D202891E25A5D5000FD2A6 /* libExpecta.a */; };
 		75736DC21E37D16B004B6652 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028A1E25A5D5000FD2A6 /* libOCMock.a */; };
 		75736DC31E37D16E004B6652 /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028D1E25A5D5000FD2A6 /* libSpecta.a */; };
+		759DF7D91E54DADC000B8AB2 /* ViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DF7D81E54DADC000B8AB2 /* ViewControllerSpec.m */; };
+		759DF7E31E54DD06000B8AB2 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DF7E21E54DD06000B8AB2 /* Cell.m */; };
+		759DF7E81E54DE20000B8AB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DF7E71E54DE20000B8AB2 /* ViewController.m */; };
 		75B2DB271E259C4400F7C899 /* CellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2DB261E259C4400F7C899 /* CellSpec.m */; };
-		75B2DB2A1E259C4F00F7C899 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2DB291E259C4F00F7C899 /* Cell.m */; };
 		75D202A01E25B027000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028B1E25A5D5000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */; };
 		82586950164503B256BECD9B /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */; };
 		AE10C0D31E134F4D00068DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D21E134F4D00068DFD /* main.m */; };
 		AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D51E134F4D00068DFD /* AppDelegate.m */; };
-		AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0D81E134F4D00068DFD /* ViewController.m */; };
 		AE10C0DC1E134F4D00068DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DA1E134F4D00068DFD /* Main.storyboard */; };
 		AE10C0DE1E134F4D00068DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DD1E134F4D00068DFD /* Assets.xcassets */; };
 		AE10C0E11E134F4D00068DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */; };
-		AE10C0EC1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */; };
 		AE10C0F71E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +50,12 @@
 		3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.debug.xcconfig"; sourceTree = "<group>"; };
 		42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
-		75B2DB261E259C4400F7C899 /* CellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSpec.m; sourceTree = "<group>"; };
-		75B2DB281E259C4F00F7C899 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
-		75B2DB291E259C4F00F7C899 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		759DF7D81E54DADC000B8AB2 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerSpec.m; path = Controllers/ViewControllerSpec.m; sourceTree = "<group>"; };
+		759DF7E11E54DD06000B8AB2 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = Views/Cell.h; sourceTree = "<group>"; };
+		759DF7E21E54DD06000B8AB2 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = Views/Cell.m; sourceTree = "<group>"; };
+		759DF7E61E54DE20000B8AB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
+		759DF7E71E54DE20000B8AB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
+		75B2DB261E259C4400F7C899 /* CellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellSpec.m; path = Views/CellSpec.m; sourceTree = "<group>"; };
 		75D202891E25A5D5000FD2A6 /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/Expecta/libExpecta.a"; sourceTree = "<group>"; };
 		75D2028A1E25A5D5000FD2A6 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/OCMock/libOCMock.a"; sourceTree = "<group>"; };
 		75D2028B1E25A5D5000FD2A6 /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; path = "../../../Library/Developer/Xcode/DerivedData/TDD_Game_Of_Life-drejcdjviyztrkhegbbkelkefffv/Build/Products/Debug-iphonesimulator/libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; sourceTree = "<group>"; };
@@ -63,18 +66,15 @@
 		877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life-TDD Game Of LifeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		975708F36DCC03C65C168812 /* Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeTests/Pods-TDD Game Of Life-TDD Game Of LifeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE10C0CE1E134F4D00068DFD /* TDD Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE10C0D21E134F4D00068DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE10C0D21E134F4D00068DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		AE10C0D41E134F4D00068DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE10C0D51E134F4D00068DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE10C0D71E134F4D00068DFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE10C0D81E134F4D00068DFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE10C0DB1E134F4D00068DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE10C0DD1E134F4D00068DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE10C0E01E134F4D00068DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE10C0E21E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10C0E21E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		AE10C0E71E134F4D00068DFD /* TDD Game Of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeTests.m; sourceTree = "<group>"; };
-		AE10C0ED1E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE10C0ED1E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		AE10C0F21E134F4D00068DFD /* TDD Game Of LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD Game Of LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE10C0F61E134F4D00068DFD /* TDD_Game_Of_LifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Game_Of_LifeUITests.m; sourceTree = "<group>"; };
 		AE10C0F81E134F4D00068DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,6 +132,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		759DF7DA1E54DB05000B8AB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				759DF7E61E54DE20000B8AB2 /* ViewController.h */,
+				759DF7E71E54DE20000B8AB2 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		759DF7DB1E54DB10000B8AB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				759DF7D81E54DADC000B8AB2 /* ViewControllerSpec.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		759DF7DC1E54DB2D000B8AB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				759DF7E11E54DD06000B8AB2 /* Cell.h */,
+				759DF7E21E54DD06000B8AB2 /* Cell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		759DF7DD1E54DB34000B8AB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75B2DB261E259C4400F7C899 /* CellSpec.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		759DF7DE1E54DB90000B8AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE10C0ED1E134F4D00068DFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		995188EFDF57DE25B8BB98DF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,16 +212,13 @@
 		AE10C0D01E134F4D00068DFD /* TDD Game Of Life */ = {
 			isa = PBXGroup;
 			children = (
-				75B2DB281E259C4F00F7C899 /* Cell.h */,
-				75B2DB291E259C4F00F7C899 /* Cell.m */,
 				AE10C0D41E134F4D00068DFD /* AppDelegate.h */,
 				AE10C0D51E134F4D00068DFD /* AppDelegate.m */,
-				AE10C0D71E134F4D00068DFD /* ViewController.h */,
-				AE10C0D81E134F4D00068DFD /* ViewController.m */,
 				AE10C0DA1E134F4D00068DFD /* Main.storyboard */,
-				AE10C0DD1E134F4D00068DFD /* Assets.xcassets */,
 				AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */,
-				AE10C0E21E134F4D00068DFD /* Info.plist */,
+				AE10C0DD1E134F4D00068DFD /* Assets.xcassets */,
+				759DF7DC1E54DB2D000B8AB2 /* Views */,
+				759DF7DA1E54DB05000B8AB2 /* Controllers */,
 				AE10C0D11E134F4D00068DFD /* Supporting Files */,
 			);
 			path = "TDD Game Of Life";
@@ -188,6 +227,7 @@
 		AE10C0D11E134F4D00068DFD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE10C0E21E134F4D00068DFD /* Info.plist */,
 				AE10C0D21E134F4D00068DFD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -196,10 +236,10 @@
 		AE10C0EA1E134F4D00068DFD /* TDD Game Of LifeTests */ = {
 			isa = PBXGroup;
 			children = (
-				75B2DB261E259C4400F7C899 /* CellSpec.m */,
-				AE10C0EB1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m */,
-				AE10C0ED1E134F4D00068DFD /* Info.plist */,
 				753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */,
+				759DF7DD1E54DB34000B8AB2 /* Views */,
+				759DF7DB1E54DB10000B8AB2 /* Controllers */,
+				759DF7DE1E54DB90000B8AB2 /* Supporting Files */,
 			);
 			path = "TDD Game Of LifeTests";
 			sourceTree = "<group>";
@@ -497,9 +537,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE10C0D91E134F4D00068DFD /* ViewController.m in Sources */,
-				75B2DB2A1E259C4F00F7C899 /* Cell.m in Sources */,
+				759DF7E31E54DD06000B8AB2 /* Cell.m in Sources */,
 				AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */,
+				759DF7E81E54DE20000B8AB2 /* ViewController.m in Sources */,
 				AE10C0D31E134F4D00068DFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,8 +549,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */,
+				759DF7D91E54DADC000B8AB2 /* ViewControllerSpec.m in Sources */,
 				75B2DB271E259C4400F7C899 /* CellSpec.m in Sources */,
-				AE10C0EC1E134F4D00068DFD /* TDD_Game_Of_LifeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
