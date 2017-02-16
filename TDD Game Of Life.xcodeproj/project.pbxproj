@@ -10,6 +10,7 @@
 		105F7FA82D231FE8CE25C9B6 /* libPods-TDD Game Of Life.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */; };
 		387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */; };
 		753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */; };
+		756040D21E56011C000D6864 /* WeatherHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 756040D11E56011C000D6864 /* WeatherHTTPClient.m */; };
 		75736DC11E37D168004B6652 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D202891E25A5D5000FD2A6 /* libExpecta.a */; };
 		75736DC21E37D16B004B6652 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028A1E25A5D5000FD2A6 /* libOCMock.a */; };
 		75736DC31E37D16E004B6652 /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028D1E25A5D5000FD2A6 /* libSpecta.a */; };
@@ -50,6 +51,9 @@
 		3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.debug.xcconfig"; sourceTree = "<group>"; };
 		42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
+		756040D01E56011C000D6864 /* WeatherHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherHTTPClient.h; path = Networking/WeatherHTTPClient.h; sourceTree = "<group>"; };
+		756040D11E56011C000D6864 /* WeatherHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherHTTPClient.m; path = Networking/WeatherHTTPClient.m; sourceTree = "<group>"; };
+		756040D31E56015B000D6864 /* TDD Game Of Life-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TDD Game Of Life-Prefix.pch"; path = "Supporting Files/TDD Game Of Life-Prefix.pch"; sourceTree = "<group>"; };
 		759DF7D81E54DADC000B8AB2 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerSpec.m; path = Controllers/ViewControllerSpec.m; sourceTree = "<group>"; };
 		759DF7E11E54DD06000B8AB2 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = Views/Cell.h; sourceTree = "<group>"; };
 		759DF7E21E54DD06000B8AB2 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = Views/Cell.m; sourceTree = "<group>"; };
@@ -130,6 +134,22 @@
 				877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756040CF1E560047000D6864 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				756040D01E56011C000D6864 /* WeatherHTTPClient.h */,
+				756040D11E56011C000D6864 /* WeatherHTTPClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		756040D41E56161F000D6864 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		759DF7DA1E54DB05000B8AB2 /* Controllers */ = {
@@ -217,8 +237,10 @@
 				AE10C0DA1E134F4D00068DFD /* Main.storyboard */,
 				AE10C0DF1E134F4D00068DFD /* LaunchScreen.storyboard */,
 				AE10C0DD1E134F4D00068DFD /* Assets.xcassets */,
+				756040D41E56161F000D6864 /* Models */,
 				759DF7DC1E54DB2D000B8AB2 /* Views */,
 				759DF7DA1E54DB05000B8AB2 /* Controllers */,
+				756040CF1E560047000D6864 /* Networking */,
 				AE10C0D11E134F4D00068DFD /* Supporting Files */,
 			);
 			path = "TDD Game Of Life";
@@ -229,6 +251,7 @@
 			children = (
 				AE10C0E21E134F4D00068DFD /* Info.plist */,
 				AE10C0D21E134F4D00068DFD /* main.m */,
+				756040D31E56015B000D6864 /* TDD Game Of Life-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -452,7 +475,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6AE662085EA16BC6F5A6430C /* [CP] Embed Pods Frameworks */ = {
@@ -497,7 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A89FB8D58A2B0048439B936C /* [CP] Embed Pods Frameworks */ = {
@@ -527,7 +550,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -540,6 +563,7 @@
 				759DF7E31E54DD06000B8AB2 /* Cell.m in Sources */,
 				AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */,
 				759DF7E81E54DE20000B8AB2 /* ViewController.m in Sources */,
+				756040D21E56011C000D6864 /* WeatherHTTPClient.m in Sources */,
 				AE10C0D31E134F4D00068DFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,6 +651,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TDD Game Of Life/Supporting Files/TDD Game Of Life-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -637,6 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -674,12 +701,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TDD Game Of Life/Supporting Files/TDD Game Of Life-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";

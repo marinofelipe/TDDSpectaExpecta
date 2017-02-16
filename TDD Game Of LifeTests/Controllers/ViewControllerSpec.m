@@ -12,9 +12,11 @@
 #import <Expecta/Expecta.h>
 #import "OCMock.h"
 #import "ViewController.h"
+#import "WeatherHTTPClient.h"
 
 SpecBegin(ViewController)
     __block ViewController *vc;
+
     beforeEach(^{
         UIStoryboard *mainsStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UINavigationController *nav = [mainsStoryboard instantiateInitialViewController];
@@ -39,6 +41,16 @@ SpecBegin(ViewController)
 
     it(@"should have a delegate wired on the tableView", ^{
         expect(vc.tableView.delegate).toNot.beNil();
+    });
+
+    describe(@"load weather data", ^{
+        __block id _mockWeatherHTTPClient;
+        
+        beforeEach(^{
+            _mockWeatherHTTPClient = [OCMockObject mockForClass:[WeatherHTTPClient class]];
+            vc.weatherHTTPClient  = _mockWeatherHTTPClient;
+        });
+        
     });
 
 SpecEnd

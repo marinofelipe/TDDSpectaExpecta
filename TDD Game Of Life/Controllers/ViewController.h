@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WeatherHTTPClient.h"
 
 @interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property(nonatomic, strong) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) WeatherHTTPClient *weatherHTTPClient;
 
 @end
 
