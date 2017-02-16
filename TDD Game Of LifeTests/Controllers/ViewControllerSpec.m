@@ -16,7 +16,7 @@
 SpecBegin(ViewController)
     __block ViewController *vc;
     beforeEach(^{
-        UIStoryboard *mainsStoryboard = [UIStoryboard storyboardWithName:@"main" bundle:nil];
+        UIStoryboard *mainsStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UINavigationController *nav = [mainsStoryboard instantiateInitialViewController];
         vc = (ViewController*)[nav visibleViewController];
         

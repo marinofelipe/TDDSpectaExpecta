@@ -641,7 +641,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
-				SDKROOT = iphoneos9.3;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -683,7 +683,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
-				SDKROOT = iphoneos9.3;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -695,7 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
-				INFOPLIST_FILE = "TDD Game Of Life/Info.plist";
+				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -708,7 +708,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
-				INFOPLIST_FILE = "TDD Game Of Life/Info.plist";
+				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -723,7 +723,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "TDD Game Of LifeTests/Info.plist";
+				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -747,7 +747,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "TDD Game Of LifeTests/Info.plist";
+				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -763,7 +763,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
-				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
+				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -777,7 +777,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
-				INFOPLIST_FILE = "TDD Game Of LifeUITests/Info.plist";
+				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.felipemarino.TDDGameOfLifeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
