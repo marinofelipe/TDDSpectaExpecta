@@ -24,9 +24,21 @@ SpecBegin(ViewController)
         expect(view).notTo.beNil();
     });
 
-    it(@"shoulb be an instance from the of the correct class", ^{
+    it(@"should be an instance from the of the correct class", ^{
         expect(vc).toNot.beNil();
         expect(vc).to.beInstanceOf([ViewController class]);
+    });
+
+    it(@"should have and outlet for the tableView", ^{
+        expect(vc.tableView).toNot.beNil();
+    });
+
+    it(@"should have a datasource wired in the tableView", ^{
+        expect(vc.tableView.dataSource).toNot.beNil();
+    });
+
+    it(@"should have a delegate wired on the tableView", ^{
+        expect(vc.tableView.delegate).toNot.beNil();
     });
 
 SpecEnd
