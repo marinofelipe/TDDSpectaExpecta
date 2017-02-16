@@ -9,7 +9,8 @@ target 'TDD Game Of Life' do
   # Pods for TDD Game Of Life
 
       pod 'AFNetworking', '~> 3.0'
-
+      pod 'JSONModel'  
+   
   target 'TDD Game Of LifeTests' do
       pod 'Specta'
       pod 'Expecta', '~> 1.0'

@@ -11,6 +11,7 @@
 		387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */; };
 		753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */; };
 		756040D21E56011C000D6864 /* WeatherHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 756040D11E56011C000D6864 /* WeatherHTTPClient.m */; };
+		756040D71E562804000D6864 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 756040D61E562804000D6864 /* Weather.m */; };
 		75736DC11E37D168004B6652 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D202891E25A5D5000FD2A6 /* libExpecta.a */; };
 		75736DC21E37D16B004B6652 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028A1E25A5D5000FD2A6 /* libOCMock.a */; };
 		75736DC31E37D16E004B6652 /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2028D1E25A5D5000FD2A6 /* libSpecta.a */; };
@@ -54,6 +55,8 @@
 		756040D01E56011C000D6864 /* WeatherHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherHTTPClient.h; path = Networking/WeatherHTTPClient.h; sourceTree = "<group>"; };
 		756040D11E56011C000D6864 /* WeatherHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherHTTPClient.m; path = Networking/WeatherHTTPClient.m; sourceTree = "<group>"; };
 		756040D31E56015B000D6864 /* TDD Game Of Life-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TDD Game Of Life-Prefix.pch"; path = "Supporting Files/TDD Game Of Life-Prefix.pch"; sourceTree = "<group>"; };
+		756040D51E562804000D6864 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = Models/Weather.h; sourceTree = "<group>"; };
+		756040D61E562804000D6864 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = Models/Weather.m; sourceTree = "<group>"; };
 		759DF7D81E54DADC000B8AB2 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerSpec.m; path = Controllers/ViewControllerSpec.m; sourceTree = "<group>"; };
 		759DF7E11E54DD06000B8AB2 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = Views/Cell.h; sourceTree = "<group>"; };
 		759DF7E21E54DD06000B8AB2 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = Views/Cell.m; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 		756040D41E56161F000D6864 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				756040D51E562804000D6864 /* Weather.h */,
+				756040D61E562804000D6864 /* Weather.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -560,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756040D71E562804000D6864 /* Weather.m in Sources */,
 				759DF7E31E54DD06000B8AB2 /* Cell.m in Sources */,
 				AE10C0D61E134F4D00068DFD /* AppDelegate.m in Sources */,
 				759DF7E81E54DE20000B8AB2 /* ViewController.m in Sources */,

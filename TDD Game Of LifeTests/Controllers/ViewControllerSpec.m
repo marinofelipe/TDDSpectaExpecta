@@ -51,6 +51,12 @@ SpecBegin(ViewController)
             vc.weatherHTTPClient  = _mockWeatherHTTPClient;
         });
         
+        afterEach(^{
+            [_mockWeatherHTTPClient verify];
+        });
+        
+        
+        
     });
 
 SpecEnd
