@@ -10,6 +10,7 @@
 #import <Specta/Specta.h>
 #define EXP_SHORTHAND //setup shorthand to prevent writing expectations with the prefix EXP_expect
 #import <Expecta/Expecta.h>
+#import "OCMock.h"
 #import "Cell.h"
 
 SpecBegin(Cell)

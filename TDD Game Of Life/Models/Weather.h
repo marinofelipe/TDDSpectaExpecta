@@ -6,19 +6,11 @@
 //  Copyright © 2017 Felipe Lefevre Marino. All rights reserved.
 //
 
-#import <JSONModel/JSONModel.h>
-
-@interface Data : JSONModel
+@interface Weather : NSObject
 
 @property(strong, nonatomic) NSDictionary *currentCondition;
-@property(strong, nonatomic) NSDictionary *request;
-@property(strong, nonatomic) NSDictionary *weather;
+@property(strong, nonatomic) NSArray *upcomingWeather;
 
-@end
-
-
-@interface Weather : JSONModel
-
-@property(strong, nonatomic) Data *data;
+- (void)getWeatherFromDict:(NSDictionary *)dict;
 
 @end

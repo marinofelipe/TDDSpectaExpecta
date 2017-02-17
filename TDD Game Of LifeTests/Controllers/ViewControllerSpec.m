@@ -55,8 +55,14 @@ SpecBegin(ViewController)
             [_mockWeatherHTTPClient verify];
         });
         
+        it(@"should load data on view did load using Weather Client", ^{
+            [[_mockWeatherHTTPClient expect] updateWeatherAtLocation:[OCMArg any] forNumberOfDays:5 completion:[OCMArg any]];
+            [vc viewDidLoad];
+        });
         
-        
+        it(@"should have 2 rows after load mock data", ^{
+            
+        });
     });
 
 SpecEnd

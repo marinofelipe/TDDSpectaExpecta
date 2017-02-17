@@ -7,22 +7,15 @@
 //
 
 #import "AFHTTPSessionManager.h"
-typedef void(^UpdateWeatherAtLocationCompletionBlock)(NSArray *shots);
-@protocol WeatherHTTPClientDelegate;
+#import "Weather.h"
+typedef void(^UpdateWeatherAtLocationCompletionBlock)(Weather *shots);
 
 @interface WeatherHTTPClient : AFHTTPSessionManager
-@property (nonatomic, weak) id<WeatherHTTPClientDelegate>delegate;
 
 + (WeatherHTTPClient *)sharedWeatherHTTPClient;
 - (instancetype)initWithBaseURL:(NSURL *)url;
-- (void)updateWeatherAtLocation:(CLLocation *)location forNumberOfDays:(NSUInteger)number;
-
-@end
-
-@protocol WeatherHTTPClientDelegate <NSObject>
-
-@optional
-- (void)weatherHTTPClient:(WeatherHTTPClient *)client didUpdateWithWeather:(id)weather;
-- (void)weatherHTTPClient:(WeatherHTTPClient *)client didFailWithError:(NSError *)error;
+- (void)updateWeatherAtLocation:(CLLocation *)location
+                forNumberOfDays:(NSUInteger)number
+                     completion:(UpdateWeatherAtLocationCompletionBlock)block;
 
 @end

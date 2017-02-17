@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		105F7FA82D231FE8CE25C9B6 /* libPods-TDD Game Of Life.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */; };
 		387B06BEB9CCA750B2C004DD /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E03794B986EF3A9D7FBF3 /* libPods-TDD Game Of Life-TDD Game Of LifeTests.a */; };
+		750C30D31E57734000E840DA /* WeatherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C30D21E57734000E840DA /* WeatherSpec.m */; };
+		750C30E21E577FEE00E840DA /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C30E11E577FEE00E840DA /* Factory.m */; };
 		753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */; };
 		756040D21E56011C000D6864 /* WeatherHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 756040D11E56011C000D6864 /* WeatherHTTPClient.m */; };
 		756040D71E562804000D6864 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 756040D61E562804000D6864 /* Weather.m */; };
@@ -51,6 +53,9 @@
 		312033D5B44697CC6EC8F7F7 /* libPods-TDD Game Of Life.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDD Game Of Life.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAC6ED1CCCA7E4BE03A2ABE /* Pods-TDD Game Of Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life/Pods-TDD Game Of Life.debug.xcconfig"; sourceTree = "<group>"; };
 		42F02EEFAC206BD105587967 /* Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD Game Of Life-TDD Game Of LifeUITests/Pods-TDD Game Of Life-TDD Game Of LifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		750C30D21E57734000E840DA /* WeatherSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherSpec.m; path = Models/WeatherSpec.m; sourceTree = "<group>"; };
+		750C30E01E577FEE00E840DA /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Factory.h; path = Utils/Factory.h; sourceTree = "<group>"; };
+		750C30E11E577FEE00E840DA /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Factory.m; path = Utils/Factory.m; sourceTree = "<group>"; };
 		753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
 		756040D01E56011C000D6864 /* WeatherHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherHTTPClient.h; path = Networking/WeatherHTTPClient.h; sourceTree = "<group>"; };
 		756040D11E56011C000D6864 /* WeatherHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherHTTPClient.m; path = Networking/WeatherHTTPClient.m; sourceTree = "<group>"; };
@@ -137,6 +142,23 @@
 				877FD37A9C57FA0EC8CDD78D /* libPods-TDD Game Of Life-TDD Game Of LifeUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750C30D11E5730E200E840DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				750C30D21E57734000E840DA /* WeatherSpec.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		750C30D41E57797900E840DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				750C30E01E577FEE00E840DA /* Factory.h */,
+				750C30E11E577FEE00E840DA /* Factory.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		756040CF1E560047000D6864 /* Networking */ = {
@@ -265,6 +287,8 @@
 			isa = PBXGroup;
 			children = (
 				753515361E4CEFF900FE9D59 /* AppDelegateSpec.m */,
+				750C30D41E57797900E840DA /* Utils */,
+				750C30D11E5730E200E840DA /* Models */,
 				759DF7DD1E54DB34000B8AB2 /* Views */,
 				759DF7DB1E54DB10000B8AB2 /* Controllers */,
 				759DF7DE1E54DB90000B8AB2 /* Supporting Files */,
@@ -578,9 +602,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750C30E21E577FEE00E840DA /* Factory.m in Sources */,
 				753515371E4CEFF900FE9D59 /* AppDelegateSpec.m in Sources */,
 				759DF7D91E54DADC000B8AB2 /* ViewControllerSpec.m in Sources */,
 				75B2DB271E259C4400F7C899 /* CellSpec.m in Sources */,
+				750C30D31E57734000E840DA /* WeatherSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +785,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = "TDD Game Of Life/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;

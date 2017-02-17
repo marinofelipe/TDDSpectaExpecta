@@ -37,27 +37,6 @@ static NSString * const kWorldWeatherOnlineURLString = @"http://api.worldweather
     return self;
 }
 
-- (void)updateWeatherAtLocation:(CLLocation *)location forNumberOfDays:(NSUInteger)number
-{
-    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
-    parameters[@"num_of_days"] = @(number);
-    parameters[@"q"] = [NSString stringWithFormat:@"%f,%f", location.coordinate.latitude, location.coordinate.longitude];
-    parameters[@"format"] = @"json";
-    parameters[@"key"] = kWorldWeatherOnlineAPIKey;
-    
-    [self GET:@"weather.ashx" parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
-        if ([self.delegate respondsToSelector:@selector(weatherHTTPClient:didUpdateWithWeather:)]) {
-            [self.delegate weatherHTTPClient:self didUpdateWithWeather:responseObject];
-        }
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
-        if ([self.delegate respondsToSelector:@selector(weatherHTTPClient:didFailWithError:)]) {
-            [self.delegate weatherHTTPClient:self didFailWithError:error];
-        }
-    }];
-}
-
 - (void)updateWeatherAtLocation:(CLLocation *)location forNumberOfDays:(NSUInteger)number completion:(UpdateWeatherAtLocationCompletionBlock)block
 {
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
@@ -68,10 +47,13 @@ static NSString * const kWorldWeatherOnlineURLString = @"http://api.worldweather
     
     [self GET:@"weather.ashx" parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
-        block(responseObject);
+        Weather *weather;
+        [weather getWeatherFromDict:responseObject];
+        
+        block(weather); 
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
-        block([NSArray array]);
+        block(nil);
     }];
 }
 
