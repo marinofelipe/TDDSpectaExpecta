@@ -8,7 +8,7 @@
 
 #import "AFHTTPSessionManager.h"
 #import "Weather.h"
-typedef void(^UpdateWeatherAtLocationCompletionBlock)(Weather *shots);
+typedef void(^UpdateWeatherAtLocationCompletionBlock)(Weather *weather);
 
 @interface WeatherHTTPClient : AFHTTPSessionManager
 

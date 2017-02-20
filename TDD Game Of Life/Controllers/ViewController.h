@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "WeatherHTTPClient.h"
 
-@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate>
 
 @property(nonatomic, strong) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) WeatherHTTPClient *weatherHTTPClient;
+
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (strong, nonatomic) CLLocation *myLocation;
+@property (strong, nonatomic) Weather *weather;
 
 @end
 

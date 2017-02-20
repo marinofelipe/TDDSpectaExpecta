@@ -13,6 +13,8 @@
 #import "OCMock.h"
 #import "ViewController.h"
 #import "WeatherHTTPClient.h"
+#import "Weather.h"
+#import "Factory.h"
 
 SpecBegin(ViewController)
     __block ViewController *vc;
@@ -61,7 +63,17 @@ SpecBegin(ViewController)
         });
         
         it(@"should have 2 rows after load mock data", ^{
+            [[_mockWeatherHTTPClient stub] updateWeatherAtLocation:[OCMArg any] forNumberOfDays:5 completion:[OCMArg checkWithBlock:^BOOL(UpdateWeatherAtLocationCompletionBlock block) {
+                
+                [_mockWeatherHTTPClient getWeatherFromDict:[Factory weatherServiceReturn]];
+                block(_mockWeatherHTTPClient);
+                return YES;
+            }]];
             
+            [vc viewDidLoad];
+            
+            id<UITableViewDataSource> dataSource = vc.tableView.dataSource;
+            expect([dataSource tableView:vc.tableView numberOfRowsInSection:0] == 2);
         });
     });
 
